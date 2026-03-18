@@ -341,10 +341,7 @@ def main():
         day_fig.update_layout(title="Daily prediction profile", xaxis_title="Time")
         st.plotly_chart(day_fig, use_container_width=True)
 
-    st.caption(
-        "Future forecasts use time features and optionally last observed weather. "
-        "Replace with real weather forecasts for higher accuracy."
-    )
+   
 
 
 if __name__ == "__main__":
